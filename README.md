@@ -1,4 +1,4 @@
-Multi-Server OAuth Authentication System used in an academic setting. 
+Multi-Server OAuth Authentication System used for educational purposes
 
 This repository contains an implementation of a multi-server OAuth-based authentication system. It demonstrates 'secure' communication and token-based authentication between a client, an OAuth provider, and an application server.
 
