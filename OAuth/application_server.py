@@ -2,7 +2,7 @@
 from cryptography.fernet import Fernet
 import socket
 import json
-
+#This key means absolutely nothing so good luck tampering with it 
 SECRET_KEY = "MTFsz1olvMkBcJbW2HMtkF98x3MeY2JO2Mh8ZhATX3E="
 
 def application_server():
