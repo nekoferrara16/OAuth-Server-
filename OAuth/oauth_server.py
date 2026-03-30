@@ -4,7 +4,7 @@ import json
 import jwt
 import datetime
 
-# Secret key for JWT signing (keep this secret!)
+# Secret key for JWT signing (keep this secret!) (This key means absolutely nothing so don't even try to do anything with it)
 SECRET_KEY = b'MTFsz1olvMkBcJbW2HMtkF98x3MeY2JO2Mh8ZhATX3E='
 
 def oauth_provider():
