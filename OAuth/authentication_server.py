@@ -12,6 +12,7 @@ from cryptography.fernet import Fernet
 # . If the credentials are not valid, the OAUTH provider will not return an OAUTH token to the
 # authentication server and the authentication server should return the following JSON to the
 # client, indicating an unsuccessful login: {“auth”:”fail”, “token”:””}
+# This key means absolutely nothing so good luck tinkering with it for anything.
 SECRET_KEY = "MTFsz1olvMkBcJbW2HMtkF98x3MeY2JO2Mh8ZhATX3E="
 def authentication_server():
     auth_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
